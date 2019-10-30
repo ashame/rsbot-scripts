@@ -50,7 +50,7 @@ public abstract class Task<C extends ClientContext> extends ClientAccessor<C> {
     }
 
     public abstract boolean activate();
-    public abstract void execute() throws InterruptedException;
+    public abstract void execute();
 
     public String getName() {
         return this.name;
